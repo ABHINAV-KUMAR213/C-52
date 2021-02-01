@@ -1,6 +1,12 @@
 h1 {
     color: white;
+   margin: 30px;
+   
 }
+.header *{
+ border: solid;
+}
+
 
 /* * {
     border: solid;
@@ -31,4 +37,35 @@ h1 {
 
 p,h2{
     text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:red;
+}
+.menu{
+    margin-right: 50px;
+}
+.menu a{
+    margin-left: 30px;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity:0.5;
+}
+.item:hover img{
+    opacity:0.4;
 }
